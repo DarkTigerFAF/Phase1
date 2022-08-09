@@ -162,4 +162,10 @@ input{
     .logo{
         margin: auto
     }
+    .search-wrapper img{
+        position: relative;
+        top:4px;
+        left: -10%;
+        height:35px;
+    }
 }
