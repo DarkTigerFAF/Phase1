@@ -1,18 +1,12 @@
 .upper{
     height: 40px;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin:auto;
+    margin-right: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.sign{
-    background-color: black;
-    color:white;
-}
 
 .dash{
     display: none;
@@ -44,11 +38,14 @@ a{
 .search-wrapper{
     position: relative;
 }
-.search-wrapper img{
+
+.SubmitImg{
     position: absolute;
-    top:9px;
-    left:92%;
+    top:-2px;
+    left:90%;
     height:20px;
+    width:20px;
+    border:0;
 }
 .top button{
     padding-top:10px;
@@ -110,8 +107,22 @@ input{
     flex-wrap: wrap;
 }
 
+.Python{
+    text-align:left;
+    width:230px;
+    margin:auto;
+}
+
+.Python img .mainImg{
+    width: 230px;
+    margin:auto;
+}
+.Python img{
+    margin:auto;
+}
+
 .menu_items{
-    margin: 2px;
+    margin: auto;
 }
 
 .menu_items a{
@@ -163,10 +174,11 @@ input{
     .logo{
         margin: auto
     }
-    .search-wrapper img{
+    .SubmitImg{
         position: relative;
-        top:4px;
-        left: -10%;
-        height:35px;
+        top:3px;
+        left: 0%;
+        height:40px;
+        width:40px;
     }
 }
